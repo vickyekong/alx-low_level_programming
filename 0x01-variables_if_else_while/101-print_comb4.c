@@ -10,11 +10,11 @@ int main(void)
 	int i;
 	int j;
 	int k;
-for (i = 0 ; i < 10 ; i++)
+for (i = 0 ; i < 10 ; i++);
 {
-for (j = 1 ; j < 10 ; j++)
+for (j = 1 ; j < 10 ; j++);
 {
-for (k = 2 ; k < 10 ; k++)
+for (k = 2 ; k < 10 ; k++);
 {
 if (i < j && j < k);
 putchar(i + '0');
@@ -26,5 +26,5 @@ putchar(' ');
 }
 }
 putchar('\n');
-return (0)
+return (0);
 }
