@@ -10,12 +10,12 @@ int main(void)
 	int i;
 	int j;
 
-	for (i = 0 ; i < 10 ; i++)
+	for (i = 0; i <= 7; i++)
 	{
-		for (j = 1 ; j < 10 ; j++)
+		for (j = i + 1; j <= 8; j++)
 		{
 
-			if (i < j && i != j)
+			if (i != 7 || j != 8)
 			{
 				putchar(i + '0');
 				putchar(j + '0');
