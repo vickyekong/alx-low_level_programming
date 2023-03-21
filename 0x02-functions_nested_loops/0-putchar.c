@@ -1,10 +1,10 @@
 #include "main.h"
 /**
-* main - Entry point
-* _putchar: print the alphabet putchar
-* return: always 0
-*/
-int main()
+ * main - Entry point
+ * _putchar: print the alphabet putchar
+ * return: always 0
+ */
+int main(void);
 {
 	_putchar('_');
 	_putchar('p');
